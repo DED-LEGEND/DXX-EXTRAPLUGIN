@@ -3024,7 +3024,7 @@ async def join_watcher(_, message):
 import random
 import asyncio
 from pyrogram import filters
-LOG = "Dv_Error_Robot" #Dont change it because it fix all errors
+LOG = "DxLUCKYBOT" #Dont change it because it fix all errors
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import os
 from config import LOG_GROUP_ID
@@ -3046,7 +3046,7 @@ photo = [
 @app.on_message(filters.new_chat_members, group=-9)
 async def join_watcher(_, message):
     try:
-        LOG = "Dv_Error_Robot"
+        LOG = "DxLUCKYBOT"
         userbot = await get_assistant(message.chat.id)
         chat = message.chat
         for members in message.new_chat_members:
